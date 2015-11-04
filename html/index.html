@@ -1,0 +1,26 @@
+<!doctype HTML>
+<html lang="en">
+	<head>
+		<title>Google Maps Racer!</title>
+		<meta charset="utf-8">
+		<meta name="description" content="A racing game using google maps API" />
+		<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="icon" type="image/png" href="images/racecar.ico"> 
+
+		<script src="js/vendor/jquery/jquery-2.1.4.min.js"></script>
+		<script src="js/mapracer.js"></script>
+	</head>
+	<body>
+
+		<div id="map"></div>
+		<div id="info"></div>
+		<div id="title">Generating Random Course...</div>
+		<div id="dtf">Dist:<span id="dtfval"></span></div>
+
+ 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ6OA2blg_FKy3naEzkhoTSsoWsMxdvwU&callback=initMap"></script>
+	</body>
+
+</html>
